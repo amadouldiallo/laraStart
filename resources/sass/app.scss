@@ -13,6 +13,20 @@
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 
 .navbar-laravel {
-  background-color: #fff;
+  background-color: #a0c6ec;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.sidebar-dark-primary {
+    background-color: #02101fc4;
+}
+[class*="sidebar-dark"] .user-panel {
+    border-bottom: 1px solid #c4c7ca;
+}
+[class*="sidebar-dark"] .brand-link {
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #d2d8de;
+}
+.router-link-exact-active{
+  background: #6d5b60;
+  color:#ffffff !important;
 }
